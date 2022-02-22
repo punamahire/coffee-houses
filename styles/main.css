@@ -1,3 +1,6 @@
+h1 {
+    margin-left: 16px;
+}
 .list {
     display: flex;
     flex-direction: row;
@@ -11,5 +14,23 @@
     border-style: dotted;
     padding: 10px;
     flex-basis: 30%;
+    background-color: rgb(244, 177, 187);
 }
 
+.shop-details a {
+    color:rgb(47, 7, 23);   
+}
+
+.shop-details p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.shop-details > a {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.menu-and-reviews {
+    display: flex;
+    justify-content: space-evenly;
+}
